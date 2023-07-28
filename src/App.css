@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  width: 94%;
+  height: calc(100vh - 47px);
+  margin: auto;
+  color: #000;
+  background: #8ab6f7;
+  overflow: auto;
+  border: 1px solid #000;
+}
+
+.photos {
+  width: 76%;
+  height: 210px;
+  background: #fff;
+  border: #390c81 1px solid;
+  border-radius: 5PX;
+  margin: 1vh auto;
+  text-align: left;
+  padding: 0 1vh;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  border: #000 2px solid;
+  border-radius: 5px;
+  margin: 0.5vh;
+}
+
+#number {
+  margin-left: 10px;
+}
+
+.task1 {
+  margin-bottom: 50px;
+}
